@@ -1,6 +1,13 @@
 # AutoQuesGen
 Generate questions with multiple choice answers from the user given passage.
 
+# Key Insights
+
+- The proposed approach uses T5 Transformer.
+- Keywords are also extracted from the user given passage to frame the questions.
+- Sense2Vec is applied to get "distractors".
+
+
 ## Install Anaconda version 4.10.3
 
 1. Create a new environment.(Code: conda create --name env2)
